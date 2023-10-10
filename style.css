@@ -3,13 +3,24 @@ body {
     padding: 0;
 }
 
+.title {
+    text-align: center;
+    z-index: 1;
+    color: white;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    font-size: 3rem;
+}
+
+
 .container {
     padding: 0;
 }
 
 .slider-wrapper {
     position: relative;
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -42,13 +53,14 @@ body {
 }
 
 .slider-nav a {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
+    width: 20em;
+    height: 5em;
     background-color: #fff;
+    border-radius: 2%;
     opacity: 0.75;
     transition: opacity ease 250ms;
     text-align: center;
+    vertical-align:middle;
     text-decoration: none;
     color: #000;
 }
