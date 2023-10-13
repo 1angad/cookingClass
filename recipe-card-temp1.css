@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 80%;
+    border: 1px solid white;
+}
+
 h1 {
     text-align: center;
     color: brown;
