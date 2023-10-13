@@ -12,35 +12,30 @@ body {
     color:black;
 }
 
-/* Style the page title */
 h1 {
     text-align: center;
     font-size: 2rem;
     padding: 20px;
 }
 
-/* Style the section headings */
 h2 {
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-/* Style the ingredients list */
 ul {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-/* Style the preparation and cooking instructions */
 ol {
     list-style-type: decimal;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-/* Style the links */
 a {
     color: #0078d4;
     text-decoration: none;
@@ -60,9 +55,9 @@ a:hover {
 .image-preview {
     display: none;
     position: absolute;
-    width: 100px; /* Adjust width and height as needed */
+    width: 100px; 
     height: 100px;
-    background-image: url('brown_sugar.png'); /* Replace with your image URL */
+    background-image: url('brown_sugar.png');
     background-size: cover;
 }
 .image-container {
@@ -71,10 +66,10 @@ a:hover {
     margin-top: -40px;
 }
 .image-container img {
-    width: 80px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 80px; 
+    height: auto; 
 }
-/* When hovering over the word, display the image container */
+
 .hover-trigger:hover + .image-container {
     display: block;
 }
