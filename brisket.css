@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap');
+
+body, h1, h2, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color:darkgray;
+    color:black;
+}
+
+/* Style the page title */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+/* Style the section headings */
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the ingredients list */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the preparation and cooking instructions */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.image-trigger:hover + .image-preview {
+    display: block;
+}
+
+.image-trigger:hover + img {
+    display: none;
+}
+
+.image-preview {
+    display: none;
+    position: absolute;
+    width: 100px; /* Adjust width and height as needed */
+    height: 100px;
+    background-image: url('brown_sugar.png'); /* Replace with your image URL */
+    background-size: cover;
+}
+.image-container {
+    display: none;
+    position: absolute;
+    margin-top: -40px;
+}
+.image-container img {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+/* When hovering over the word, display the image container */
+.hover-trigger:hover + .image-container {
+    display: block;
+}
