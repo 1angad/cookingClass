@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: Gill Sans, sans-serif;
+    background-color: burlywood;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #ff5722;
-    font-size: 2.5rem;
+    color: brown;
+    font-size: 20pt;
     margin: 20px 0;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: black;
     margin: 20px 0;
 }
 
@@ -36,7 +36,7 @@ ul li {
 
 h4 {
     font-size: 1.2rem;
-    color: #666;
+    color: chocolate;
     margin: 10px 0;
 }
 
