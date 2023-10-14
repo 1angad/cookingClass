@@ -7,16 +7,14 @@ body {
 
 .typed-out {
     overflow: hidden;
-    border-right: .15em solid orange;
     white-space: nowrap;
-    font-size: 1.6rem;
+    font-size: 30pt;
     width: 0;
-    animation: 
-    typing 1s steps(20, end) forwards;
-}
-
-.container {
-    display: inline-block;
+    animation: typing 1.3s steps(20, end) forwards;
+    text-align: center;
+    color: brown;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 @keyframes typing {
