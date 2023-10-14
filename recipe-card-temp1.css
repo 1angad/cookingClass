@@ -5,6 +5,25 @@ body {
     padding: 0;
 }
 
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+    typing 1s steps(20, end) forwards;
+}
+
+.container {
+    display: inline-block;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%}
+}
+
 img {
     display: block; 
     margin: 0 auto;
