@@ -13,10 +13,16 @@ body {
     position: absolute;
     background-color: black;
     width: 100%;
-    font-size: 3rem;
+    height: fit-content;
+    font-size: 200%;
     font-family: 'Quicksand', sans-serif;
+    padding-bottom: 11px;
 }
 
+.title span {
+    font-size: 200%;
+    font-weight: 500;
+}
 
 .container {
     padding: 0;
@@ -57,16 +63,18 @@ body {
 }
 
 .slider-nav a {
-    width: 20em;
-    height: 5em;
+    width: fit-content;
+    height: fit-content;
     background-color: #fff;
     border-radius: 2%;
     opacity: 0.75;
     transition: opacity ease 250ms;
-    text-align: center;
-    vertical-align:middle;
     text-decoration: none;
     color: #000;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .slider-nav a:hover {
@@ -118,6 +126,7 @@ body {
 .btn1{
     color: purple; 
 } 
+
 .btn1:hover{ 
     color: #fff; 
 } 
@@ -140,7 +149,7 @@ body {
     height: 180%; 
 } 
 
-#preview-vid {
+video {
     border-radius: inherit;
     height: 500px;
     width: 300px;
