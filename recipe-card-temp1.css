@@ -18,12 +18,21 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
 }
-
+.inner{
+    animation: slide_up 1.4s ease;
+}
 @keyframes typing {
     from { width: 0 }
     to { width: 100%}
 }
-
+@keyframes slide_up{
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 img {
     display: block; 
     margin: 0 auto;
